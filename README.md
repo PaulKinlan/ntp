@@ -4,9 +4,7 @@ It turns out that you can't configure the CMD+T (new tab) behavior in Chrome to 
 
 ## Features
 
-- Shows the current time
-- Shows a beautiful background image from Unsplash
-- Allows you to customize the background image by providing a URL to an image.
+- Configure the URL to open when a new tab is created
 
 ## Install
 
