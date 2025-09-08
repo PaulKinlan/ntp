@@ -10,7 +10,12 @@ if (!fs.existsSync(distDir)) {
 }
 
 // Entry points for our JS files
-const entryPoints = ["background.js", "newtab.js", "options.js"];
+const entryPoints = [
+  "background.js",
+  "newtab.js",
+  "options.js",
+  "newtab_content.js",
+];
 
 // Files to copy directly
 const filesToCopy = ["manifest.json", "newtab.html", "options.html"];

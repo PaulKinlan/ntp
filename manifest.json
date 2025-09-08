@@ -3,7 +3,7 @@
   "name": "NTP Redirect",
   "version": "1.0",
   "description": "Redirects the New Tab Page to a custom URL.",
-  "permissions": ["storage"],
+  "permissions": ["storage", "tabs"],
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
